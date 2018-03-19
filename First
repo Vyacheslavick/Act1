@@ -1,0 +1,20 @@
+package com.slavick;
+
+public class Main {
+
+    public static void main(String[] args) {
+    long china = 1384160000 ;
+    System.out.println("China" + " = " + china) ;
+    long india = 1318270000 ;
+    System.out.println("India" + " = " + india) ;
+    long usa = 325375000  ;
+    System.out.println("USA" + " = " + usa) ;
+    long indonesia = 261600000 ;
+    System.out.println("Indonesia" + " = " + indonesia) ;
+    long brazil = 207709000 ;
+    System.out.println("Brazil" + " = " + brazil) ;
+    long all = china + india + usa + indonesia + brazil ;
+    System.out.println("All" + " = " + all) ;
+
+    }
+}
